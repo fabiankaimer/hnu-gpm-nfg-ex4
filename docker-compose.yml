@@ -4,6 +4,7 @@ services:
     container_name: assaultcube-server
     ports:
       - "28763:28763/udp"
+      - "28764:28764/udp"
     volumes:
       - ./data:/opt/assaultcube/packages/maps
     restart: unless-stopped
