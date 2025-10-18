@@ -1,6 +1,6 @@
 services:
   assaultcube-server:
-    image: hnudocker1/gpm-nfg-ex4
+    image: hnudocker1/gpm-nfg-ex4:205
     container_name: assaultcube-server
     ports:
       - "28763:28763/udp"
