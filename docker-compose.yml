@@ -5,6 +5,6 @@ services:
     ports:
       - "28763:28763/udp"
       - "28764:28764/udp"
-    volumes:
-      - ./data:/opt/assaultcube/packages/maps
     restart: unless-stopped
+    # volumes:
+    #   - ./data:/opt/assaultcube/packages/maps
